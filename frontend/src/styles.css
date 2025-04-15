@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+.app-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a, .navbar button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+}
+
+.navbar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar a:hover, .navbar button:hover {
+    color: #dfe9f3;
+}
+
+.form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    max-width: 500px;
+    margin: 40px auto;
+    transition: transform 0.3s ease;
+}
+
+.form-container:hover {
+    transform: translateY(-3px);
+}
+
+.form-container h2 {
+    margin-bottom: 25px;
+    color: #1e3c72;
+    font-size: 26px;
+    text-align: center;
+}
+
+.form-container input, .form-container select, .form-container button {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #e0e4e8;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-container input:focus, .form-container select:focus {
+    border-color: #1e3c72;
+    outline: none;
+}
+
+.form-container button {
+    background: #1e3c72;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.form-container button:hover {
+    background: #2a5298;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+    color: #1e3c72;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.card p {
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+.card button {
+    background: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.card button:hover {
+    background: #219653;
+}
+
+.exam-question {
+    margin: 25px 0;
+}
+
+.exam-question p {
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #2c3e50;
+}
+
+.exam-question label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+.exam-question label:hover {
+    background: #f0f2f5;
+}
+
+.exam-question input[type="radio"] {
+    margin-right: 12px;
+    accent-color: #1e3c72;
+}
+
+h1 {
+    color: #1e3c72;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    color: #7f8c8d;
+    margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .navbar a, .navbar button {
+        margin: 8px 0;
+    }
+
+    .form-container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
