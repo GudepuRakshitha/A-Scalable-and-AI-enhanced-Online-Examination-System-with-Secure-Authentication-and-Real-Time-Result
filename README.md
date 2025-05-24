@@ -1,5 +1,4 @@
 
-
 ## 📌 Project Title
 
 **A Scalable and AI-enhanced Online Examination System with Secure Authentication and Real-Time Result Analysis**
