@@ -15,7 +15,7 @@ The Online Exam Registration System is developed to simplify and secure the enti
 - 📊 Real-time result processing
 - 📅 Exam scheduling & management
 - 📈 Graphical performance analytics
-- 📄 Support for various question types (MCQs, short answers, coding)
+- 📄 Support for various question types (MCQs, short answers, coding).
 
 ---
 
